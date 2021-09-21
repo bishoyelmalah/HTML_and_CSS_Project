@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Tajawal:wght@400;700&display=swap');
+
+/* FONTS */
+/* font-family: 'Tajawal', sans-serif;
+font-family: 'Kufam', sans-serif;  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d9e2ec;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #f0f4f8;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Tajawal', sans-serif;
+    margin-bottom: 5px;
+}
+
+/* NAVIGATION BAR */
+
+.nav-container {
+    background-color: #334e68;
+    color: #f0f4f8;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav .logo {
+    font-weight: bold;
+    font-family: 'Kufam', sans-serif;
+    margin-bottom: 0;
+    color: #f0f4f8;
+    display: flex;
+    flex: 2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+nav ul li a {
+    color: #f0f4f8;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #27ab83;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+/* HERO SECTION */
+
+.background {
+    background-color: #334e6883;
+}
+
+.hero-section {
+    height: 90vh;
+    background-image: url("./images/photo_2021-01-01_14-16-01.jpg");
+    background-size: cover;
+}
+
+.content {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+}
+
+#elglylen {
+    background-color:#6c747b94;
+    border-radius: 1rem;
+    padding: 1rem 0.7rem;
+}
+
+h1 span,
+h3 span {
+    color: #27ab83;
+}
+
+.content h3 {
+    font-size: 2rem;
+    color:#d5d5d5;
+}
+
+.btn {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.75rem 3rem ;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #27ab83;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #2ec598;
+    transition-duration: 0.2s;
+}
+
+.btn a {
+    color:#243b53;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+/* QUALITIES SECTION */
+
+.qualities {
+    margin: 4rem auto;
+    width: 90%;
+    max-width: 1366px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.qualities h2 {
+    font-size: 3rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.quality-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.quality {
+    background-color: #bcccdc;
+    margin: 2rem auto;
+    width: 30%;
+    padding: 4rem 0;
+}
+
+.quality p {
+    text-align: center;
+    margin: 4rem auto;
+    color: #6c747b;
+}
+
+.header-container {
+    font-size: 2.2rem;
+}
+
+/* ABOUT US SECTION */
+
+.about-container {
+    background-color: #334e68;
+}
+
+.about-us {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h2 {
+    color: #d9e2ec;
+    font-size: 3rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.about-content p {
+    color: #aeb2b6;
+    margin-top: 1rem;
+    width: 70%;
+}
+
+/* CONTANT FORM */
+
+.call-us {
+    width: 90%;
+    max-width: 1366px;
+    margin: 4rem auto;
+    height: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+label,
+input,
+textarea {
+    font-size: 1.6rem;
+    font-family: 'Tajawal', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+input,
+textarea {
+    width: 80%;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.75rem 2rem;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+form .btn {
+    width: 100px;
+    align-self: center;
+}
+
+.call-us h2 {
+    font-size: 3rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 1.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #334e68;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #d9d9d9;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 760px){
+    .content{
+        text-align: center;
+        align-items: center;
+    }
+
+    .content .btn{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 650px){
+    nav ul {
+        flex-direction: column;
+        flex: 0.5;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .quality {
+        width: 100%;
+    }
+
+    .quality-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .about-us img {
+        display: none;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content p{
+        width: 100%;
+        text-align: center;
+    }
+}
